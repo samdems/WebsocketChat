@@ -129,8 +129,9 @@ $(document).ready(function(){
     meSpeak.loadConfig("mespeak_config.json");
     meSpeak.loadVoice("voices/en/en-us.json");
   </script>
-<div class="chat_wrapper">
-<div class="message_box" id="message_box"></div>
+<div class="well container">
+<div class="message_box " id="message_box"></div>
+<div class="player_box" id="player_box">test</div>
 <div class="panel">
 <input type="text" name="message" id="message" placeholder="Message" style="width:80%" />
 <button id="send-btn">Send</button>
